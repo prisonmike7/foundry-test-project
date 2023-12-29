@@ -2,6 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "ds-test/test.sol";
+import "../src/StakeContract.sol";
 
 contract StakeContractTest is DSTest {
     function setUp() public {}
