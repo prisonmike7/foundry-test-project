@@ -22,11 +22,15 @@ contract StakeContract {
 
     // Function Brainstorming:
     // ------------------------------------------------------------
-    // function unstake(uint256 _amount) public {}
-    // function withdraw(uint256 _amount) public {}
-    // function claimReward() public {}
-    // function exit() public {}
-    // function getReward() public {}
+    function unstake() public {}
+
+    function withdraw() public {}
+
+    function claimReward() public {}
+
+    function exit() public {}
+
+    function getReward() public {}
     // function getStakeBalance() public view returns(uint256) {}
     // function getRewardBalance() public view returns(uint256) {}
     // function getStakeCount() public view returns(uint256) {}
